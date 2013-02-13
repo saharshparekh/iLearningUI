@@ -1,0 +1,114 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	background: #3c484c url("img/logo.png") no-repeat center center;	
+	font-family: "RobotoLight", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+body.loaded {
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* @group Header */
+
+header {
+	display: block;
+	position: fixed;
+	z-index: 2;
+	top: -100px;
+	width: 100%;
+	height: auto;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	font-family: "RobotoLight", Helvetica, Arial, sans-serif;
+}
+
+header.loaded {
+	top: 0px;
+}
+
+header nav {
+	display: table;
+	position: absolute;
+	width: 100%;
+	background: #333333;
+	box-shadow: 0px 2px 4px rgba(000, 000, 000, .2);
+	-webkit-transition: top .5s ease-out;
+	-moz-transition: top .5s ease-out;
+	-o-transition: top .5s ease-out;
+}
+
+header nav a {
+	display: table-cell;
+	width: 20%;
+	position: relative;
+	border-bottom: 5px solid rgba(000, 000, 000, .1);
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	vertical-align: middle;
+	font-size: 190%;
+	font-weight: normal;
+	color: rgba(255, 255, 255, .8);
+	text-shadow: 0px 1px 1px rgba(000, 000, 000, .1);
+	padding: 12px;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	padding-top: 7px;
+	border-width: 10px;
+	color: white;
+}
+
+header nav a.logo {
+	background: #33b5e5;
+}
+
+header nav .icon {
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	margin-right: 4px;
+}
+
+header nav a.designer {
+	background: #aa66cc;
+}
+
+header nav a.photographer {
+	background: #99cc00;
+}
+
+header nav a.musician {
+	background: #ffbb33;
+}
+
+header nav a.contact {
+	background: #ff4444;
+}
+
+header nav a.toggle {
+	display: none;
+	background: #444;
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	clear: both;
+	width: 100%;
+}
+
+header nav a ul {
+	display: none;
+	position: absolute;
+}

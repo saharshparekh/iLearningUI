@@ -1,0 +1,218 @@
+#grid article section.square img.portrait {
+	width: 100%;
+	height: 100%;
+}
+.item{
+width:30%;
+height:30%;
+position:absolute;
+}
+#grid article section.square {
+	display: block;
+	position: absolute;
+	opacity: 1;
+	background: rgba(000, 000, 000, .5);
+	color: white;
+	text-shadow: 0px 1px 2px rgba(000, 000, 000, .4);
+	font-size: 90%;
+	padding: 10px;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+	cursor: default;
+}
+
+#grid article section.square.a.hidden {
+	top: 50%;
+	left: 0%;
+	opacity: 0;
+	z-index: -1;
+}
+
+#grid article section.square.b.hidden {
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	z-index: -1;
+}
+
+#grid article section.square.c.hidden {
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	z-index: -1;
+}
+
+#grid article section.square.d.hidden {
+	top: 0%;
+	left: 50%;
+	opacity: 0;
+	z-index: -1;
+}
+
+#grid article section.square.ab.hidden {
+	top: 0%;
+	left: -50%;
+	opacity: 0;
+	z-index: 10;
+}
+
+#grid article a {
+	color: white;
+	text-decoration: none;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+
+#grid article a:hover {
+	color: #ff4444;
+}
+
+#grid article section.square big {
+	display: block;
+	clear: both;
+	font-family: "RobotoLight", Helvetica, Arial, sans-serif;
+	font-size: 250%;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#grid article section.square big.icon {
+	display: block;
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	top: 50%;
+	left: 50%;
+	margin: -24px auto auto -24px;
+	font-size: 38px;
+}
+
+
+
+#grid article section.square small {
+	display: block;
+	clear: both;
+	text-align: center;
+	text-transform: uppercase;
+/* 	font-family: "RobotoLight", Helvetica, Arial, sans-serif; */
+	font-weight: normal;
+	font-size: 140%;
+}
+
+#grid article section.square img {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: auto;
+	height: 100%;
+}
+
+#grid article section.square img:nth-child(2n) {
+	left: 50%;
+	z-index: 10;
+}
+
+#grid article.portfolio section.square img,
+#grid article.featured section.square img {
+	display: none;
+}
+
+#grid article.portfolio section.square img:first-child,
+#grid article.featured section.square img:first-child {
+	display: block !important;
+}
+
+#grid article section.square img.portrait {
+	width: 100%;
+	height: auto;
+}
+
+#grid article section.square iframe {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#grid article section.square.a,
+#grid article:hover section.square.a.hidden {
+	width: 50%;
+	height: 50%;
+	left: 0;
+	top: 0;
+	opacity: 1;
+}
+
+#grid article section.square.b,
+#grid article:hover section.square.b.hidden {
+	width: 50%;
+	height: 50%;
+	left: 50%;
+	top: 0;
+	opacity: 1;
+}
+
+#grid article section.square.c,
+#grid article:hover section.square.c.hidden {
+	width: 50%;
+	height: 50%;
+	left: 0;
+	top: 50%;
+	opacity: 1;
+}
+
+#grid article section.square.d,
+#grid article:hover section.square.d.hidden {
+	width: 50%;
+	height: 50%;
+	left: 50%;
+	top: 50%;
+	opacity: 1;
+}
+
+#grid article section.square.ab,
+#grid article:hover section.square.ab.hidden {
+	width: 100%;
+	height: 50%;
+	left: 0%;
+	top: 0%;
+	opacity: 1;
+}
+
+#grid article section.square.ac,
+#grid article:hover section.square.ac.hidden {
+	width: 50%;
+	height: 100%;
+	left: 0%;
+	top: 0%;
+	opacity: 1;
+}
+
+#grid article section.square.bd,
+#grid article:hover section.square.bd.hidden {
+	width: 50%;
+	height: 100%;
+	left: 50%;
+	top: 0%;
+	opacity: 1;
+}
+
+#grid article section.square.cd,
+#grid article:hover section.square.cd.hidden {
+	width: 100%;
+	height: 50%;
+	left: 0%;
+	top: 50%;
+	opacity: 1;
+}
