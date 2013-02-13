@@ -1,0 +1,36 @@
+			<section id="grid" style="margin-top:150px;">
+					<article class="item">
+				
+					    <section class="square ab">
+					        <img class="portrait" src="http://25.media.tumblr.com/67bae1047372386c4a0c3029aaa8f209/tumblr_mi0kuytC751qzosvbo1_250.png" class="portrait">
+					    </section>
+					        
+					    <section class="square c">
+					        <a href="http://www.alexbuga.is/post/42762156374/fi-case-study-fi-iconography-fantasy" rel="lightbox"><big class="icon icon-camera"></big></a>
+					    </section>
+					    
+					    
+					    <section  class="square ab hidden">
+					        <a href="http://www.alexbuga.is/post/42762156374/fi-case-study-fi-iconography-fantasy" rel="lightbox"><b data-process="trim">Fi Case study: Fi Iconography 
+Fantasy Interactive, f-i.com
+
+
+ Why icons?
+
+ Icons are a quick, visu­al method for express­ing ideas and com­mu­ni­cat­ing infor­ma­tion. Iconog­ra­phy as a visu­al lan­guage serves us every day, help­ing to solve spe­cif­ic UX and des …
+
+
+
+
+ F-I icons case study. Awesome! http://flip.it/FtHB5</b></a>
+					    </section>
+					    
+					
+					    <section class="square d hidden">
+					        <big>10</big>
+							<a href="/archive/2013/2"><small>Feb</small></a>
+						</section>
+										
+					</article>
+
+					</section>
