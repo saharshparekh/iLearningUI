@@ -2,7 +2,7 @@
 
 <head>
  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-      <title>Alex Buga - Senior Graphic Designer</title>
+      <title>interactive learning portal</title>
     	
 		
 		<!--link rel="shortcut icon" href="http://24.media.tumblr.com/avatar_05e176e12c15_16.png"-->
@@ -18,44 +18,88 @@
 		<script src="http://cdn.alexbuga.is/js/jquery.fancybox.pack.js"></script>
 		
 <meta name="keywords" content="mymusic,website,portfolio,video,cookiejar">
+<link href="dropdowncss.css" rel="stylesheet" type="text/css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script>
+	$(document).ready(function(){
+	  $(".spacesdrop").click(function(){
+	    $("#topnavcontent").slideToggle(400);
+	  });
+	});
+	</script>
+
 </head>
 
 <body>
 
+
+
+
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 
-
-
-
-
-
 <header class="loaded">
-<nav>
-<a class="logo" rel="home" href="/">
-<a class="designer" rel="lightbox" href="/designing-stuff">designing,</a>
-<a class="photographer" rel="lightbox" href="/taking-photos">taking photos,</a>
-<a class="musician" rel="lightbox" href="/making-music">making music,</a>
-<a class="contact" rel="lightbox" href="/awesome">awesome.</a>
-<a id="MenuToggle" class="toggle" href="#menu">Menu</a>
-</nav>
 
+<!-- start of top navigation -->
 
-<div class="span12">
+<div id="topnav">
+<!-- tool bar that can be seen goes here-->
+		<div href="#" class="spacesdrop" onClick="event.preventDefault(); return false">
+			<header class="loaded">
+				<nav>
+					<a class="logo" rel="home" href="/">
+					<a class="designer" rel="lightbox" href="/designing-stuff">designing,</a>
+					<a class="photographer" rel="lightbox" href="/taking-photos">taking photos,</a>
+					<a class="musician" rel="lightbox" href="/making-music">making music,</a>
+					<a class="contact" rel="lightbox" href="/awesome">awesome.</a>
+					<a id="MenuToggle" class="toggle" href="#menu">Menu</a>
+				</nav>
+			</header>
+		</div>
 </div>
 
+<div id="topnavcontent">
+<!-- all hidden content will go here -->
+	<div class="topnavcol">
+			<ul>
+				<li><a class="topnav" href="www.google.com">e learning</a></li>
+			</ul>
+	</div>
+</div>
+<!-- end of top navigation -->
 
-<ul class="breadcrumb" align="center" style="margin-top:50px;">
+<ul class="breadcrumb" style="left:30px;top:-10px;">
   <li><a href="#">Home</a> <span class="divider">-></span></li>
- <li><a href="#">subject</a> <span class="divider">-></span></li>
+  <li><a href="#">subject</a> <span class="divider">-></span></li>
   <li class="active">Digital Electronics</li>
-  <li style="margin-right:20px;margin-left:600px;">
-  <div class="btn-group" data-toggle="buttons-radio">
+  <!--li style="margin-right:20px;margin-bottom:0px;margin-left:100px;margin-top:0px;">
+
+	  <ul class="nav nav-pills" style="margin:0px;>
+		  <li class="active">
+		    <a href="#">saharsh</a>
+		  </li>
+		  <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+			account
+			<b class="caret"></b>
+		      </a>
+		    <ul class="dropdown-menu">
+		      <a href="#">sign out</a><br>
+		      <a href="#">change password</a><br>
+		      <a href="#">info</a>
+		    </ul>
+		  </li>
+	</ul>
+
+</li-->
+  
+  <!--<div class="btn-group" data-toggle="buttons-radio">
   <button type="button" class="btn btn-primary">sign out</button>
   <button type="button" class="btn btn-primary">account</button>
   <button type="button" class="btn btn-primary">saharsh</button>
-</div>
-</li>
+</div>-->
+
 
 </ul>
 
@@ -174,6 +218,117 @@
 					</article>
 
 					</section>
+<!--second square-->
+
+<section id="grid" style="margin-top:150px;margin-left:800px;" >
+					<article class="item">
+				
+					    <section class="square ab">
+					        <img class="portrait" src="http://25.media.tumblr.com/67bae1047372386c4a0c3029aaa8f209/tumblr_mi0kuytC751qzosvbo1_250.png" class="portrait">
+					    </section>
+					        
+					    <section class="square c">
+					        <a href="http://www.alexbuga.is/post/42762156374/fi-case-study-fi-iconography-fantasy" rel="lightbox"><big class="icon icon-camera"></big></a>
+					    </section>
+					    
+					    
+					    <section  class="square ab hidden">
+					        <a href="http://www.alexbuga.is/post/42762156374/fi-case-study-fi-iconography-fantasy" rel="lightbox"><b data-process="trim">Fi Case study: Fi Iconography 
+
+
+
+
+
+
+
+ F-I icons case study. Awesome! http://flip.it/FtHB5</b></a>
+					    </section>
+					    
+					
+					    <section class="square d hidden">
+					        <big>10</big>
+							<a href="/archive/2013/2"><small>Feb</small></a>
+						</section>
+										
+					</article>
+
+					</section>
+
+<!-----3rd box------>
+
+
+<section id="grid" style="margin-top:400px;margin-left:800px;" >
+					<article class="item">
+				
+					    <section class="square ab">
+					        <img class="portrait" src="http://25.media.tumblr.com/67bae1047372386c4a0c3029aaa8f209/tumblr_mi0kuytC751qzosvbo1_250.png" class="portrait">
+					    </section>
+					        
+					    <section class="square c">
+					        <a href="http://www.alexbuga.is/post/42762156374/fi-case-study-fi-iconography-fantasy" rel="lightbox"><big class="icon icon-camera"></big></a>
+					    </section>
+					    
+					    
+					    <section  class="square ab hidden">
+					        <a href="http://www.alexbuga.is/post/42762156374/fi-case-study-fi-iconography-fantasy" rel="lightbox"><b data-process="trim">Fi Case study: Fi Iconography 
+
+
+
+
+
+
+
+ F-I icons case study. Awesome! http://flip.it/FtHB5</b></a>
+					    </section>
+					    
+					
+					    <section class="square d hidden">
+					        <big>10</big>
+							<a href="/archive/2013/2"><small>Feb</small></a>
+						</section>
+										
+					</article>
+
+					</section>
+
+
+<!----4th square-->
+
+<section id="grid" style="margin-top:300px;margin-left:400px;" >
+					<article class="item">
+				
+					    <section class="square ab">
+					        <img class="portrait" src="http://25.media.tumblr.com/67bae1047372386c4a0c3029aaa8f209/tumblr_mi0kuytC751qzosvbo1_250.png" class="portrait">
+					    </section>
+					        
+					    <section class="square c">
+					        <a href="http://www.alexbuga.is/post/42762156374/fi-case-study-fi-iconography-fantasy" rel="lightbox"><big class="icon icon-camera"></big></a>
+					    </section>
+					    
+					    
+					    <section  class="square ab hidden">
+					        <a href="http://www.alexbuga.is/post/42762156374/fi-case-study-fi-iconography-fantasy" rel="lightbox"><b data-process="trim">Fi Case study: Fi Iconography 
+
+
+
+
+
+
+
+ F-I icons case study. Awesome! http://flip.it/FtHB5</b></a>
+					    </section>
+					    
+					
+					    <section class="square d hidden">
+					        <big>10</big>
+							<a href="/archive/2013/2"><small>Feb</small></a>
+						</section>
+										
+					</article>
+
+					</section>
+
+
 
 
 			</div>
